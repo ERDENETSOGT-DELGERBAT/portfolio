@@ -26,8 +26,10 @@ A book search website created as part of my Web Programming coursework.
 ### 2. Student Registration
 A student registration project developed using web technologies.
 
-### 3. Team Project
-A collaborative project completed with classmates.
+### 3. What's Cooking?
+A collaborative web project developed with classmates.
+
+[Visit What's Cooking?](https://erdenetsogt-delgerbat.github.io/team-Project/)
 
 ## Technologies
 
