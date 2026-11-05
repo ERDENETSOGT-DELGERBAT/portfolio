@@ -40,5 +40,3 @@ A collaborative project completed with classmates.
 GitHub: https://github.com/ERDENETSOGT-DELGERBAT
 
 ---
-
-© 2026 Erdenetsogt Delgerbat
