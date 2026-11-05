@@ -247,3 +247,89 @@ main {
     color: #a89fff;
     font-weight: 700;
 }
+
+@media (max-width: 850px) {
+    .hero {
+        grid-template-columns: 1fr 220px;
+        padding: 40px;
+        gap: 25px;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation {
+        min-height: 68px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        margin: 30px 0 65px;
+        padding: 30px 24px;
+        gap: 28px;
+    }
+
+    .hero h1 {
+        font-size: 39px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .profile-frame {
+        width: 190px;
+        max-height: none;
+    }
+
+    .section {
+        margin-bottom: 65px;
+    }
+
+    .section h2 {
+        font-size: 29px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        min-height: 230px;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+}
+
+a:focus-visible {
+    outline: 3px solid #8277ff;
+    outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
