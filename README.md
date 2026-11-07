@@ -31,12 +31,6 @@ A collaborative web project developed with classmates.
 
 [Visit What's Cooking?](https://erdenetsogt-delgerbat.github.io/team-Project/)
 
-## Technologies
-
-- HTML5
-- CSS3
-- GitHub Pages
-
 ## Contact
 
 GitHub: https://github.com/ERDENETSOGT-DELGERBAT
