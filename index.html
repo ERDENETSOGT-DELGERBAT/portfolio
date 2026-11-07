@@ -4,425 +4,232 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of Erdenetsogt Delgerbat, Computer Engineering student at Gachon University. Explore web development projects, skills, and coursework.">
-  <meta name="theme-color" content="#f1eee6">
-  <title>Erdenetsogt Delgerbat — Portfolio</title>
+  <meta name="description" content="Portfolio of Erdenetsogt Delgerbat, Computer Engineering student at Gachon University.">
+  <meta name="color-scheme" content="light dark">
+  <title>Erdenetsogt Delgerbat | Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
-
 <body>
 
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <nav class="navigation shell" aria-label="Main navigation">
-
-      <a class="brand" href="#home" aria-label="Erdenetsogt Delgerbat home">
-        ED<span>.</span>
-        <span class="brand-caption">PERSONAL PORTFOLIO / 2026</span>
+      <a class="brand" href="index.html">
+        Erdenetsogt Delgerbat<span>.</span>
       </a>
 
       <div class="nav-links">
         <a href="#about">About</a>
-        <a href="#toolkit">Toolkit</a>
-        <a href="#work">Selected work</a>
+        <a href="#skills">Skills</a>
+        <a href="projects.html">Projects</a>
       </div>
 
-      <button
-        class="theme-toggle"
-        id="theme-toggle"
-        type="button"
-        aria-label="Switch to dark mode"
-        aria-pressed="false">
-        <span class="theme-icon" aria-hidden="true">◐</span>
-        <span class="theme-label">Dark mode</span>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span id="theme-icon" aria-hidden="true">◐</span>
+        <span id="theme-label">Dark mode</span>
       </button>
-
     </nav>
   </header>
 
   <main id="main" class="shell">
 
-    <!-- HERO -->
-
-    <section class="hero" id="home">
-
+    <section class="hero">
       <div class="hero-copy">
-
         <p class="eyebrow">
-          <span class="eyebrow-dot"></span>
-          COMPUTER ENGINEERING / GACHON UNIVERSITY
+          <span class="eyebrow-line"></span>
+          GACHON UNIVERSITY / COMPUTER ENGINEERING
         </p>
 
-        <h1>
-          Learning<br>
-          by <em>making</em><br>
-          things work.
-        </h1>
+        <h1>Erdenetsogt<br><span>Delgerbat.</span></h1>
 
         <p class="hero-description">
-          I'm <strong>Erdenetsogt Delgerbat</strong>, a Computer Engineering
-          student at Gachon University. I'm interested in programming,
-          web development, and turning what I learn into practical projects.
+          Computer Engineering student interested in programming,
+          web development, and technology. This portfolio presents
+          selected coursework and projects developed during my studies.
         </p>
 
         <div class="hero-actions">
-          <a class="button button-primary" href="#work">
-            Explore selected work <span aria-hidden="true">↘</span>
+          <a class="button button-primary" href="projects.html">
+            View projects <span aria-hidden="true">→</span>
           </a>
 
-          <a
-            class="text-link"
-            href="https://github.com/ERDENETSOGT-DELGERBAT"
-            target="_blank"
-            rel="noopener noreferrer">
-            GitHub profile <span aria-hidden="true">↗</span>
+          <a class="underlined-link" href="https://github.com/ERDENETSOGT-DELGERBAT" target="_blank" rel="noopener noreferrer">
+            GitHub profile ↗
           </a>
         </div>
-
       </div>
 
-      <div class="hero-visual" aria-label="ED monogram graphic">
-
-        <div class="visual-topline">
-          <span>INDEPENDENT LEARNING</span>
-          <span>001 — 026</span>
+      <aside class="profile-panel" aria-label="Student information">
+        <div class="panel-heading">
+          <span>PROFILE</span>
+          <span>2026</span>
         </div>
 
-        <div class="monogram-wrap">
-          <div class="monogram-circle"></div>
-          <div class="monogram">ED<span>.</span></div>
-          <div class="monogram-cross">+</div>
+        <div class="profile-name">
+          Erdenetsogt<br>Delgerbat
         </div>
 
-        <div class="visual-bottom">
-          <div>
-            <span class="visual-label">FIELD NOTES</span>
-            <strong>Ideas into interfaces.</strong>
+        <div class="profile-details">
+          <div class="profile-row">
+            <span>UNIVERSITY</span>
+            <strong>Gachon University</strong>
           </div>
-          <span class="visual-number">01 / 03</span>
+
+          <div class="profile-row">
+            <span>MAJOR</span>
+            <strong>Computer Engineering</strong>
+          </div>
+
+          <div class="profile-row">
+            <span>INTERESTS</span>
+            <strong>Programming / Web Development</strong>
+          </div>
         </div>
-
-        <span class="vertical-caption">GACHON UNIVERSITY · COMPUTER ENGINEERING</span>
-
-      </div>
-
+      </aside>
     </section>
 
-    <!-- QUICK OVERVIEW -->
-
-    <section class="overview-strip" aria-label="Portfolio overview">
-
-      <div class="overview-item">
-        <span class="overview-number">03</span>
-        <span class="overview-label">SELECTED PROJECTS</span>
+    <div class="fact-strip">
+      <div class="fact">
+        <span class="fact-number">01</span>
+        <div>
+          <strong>Education</strong>
+          <span>Computer Engineering</span>
+        </div>
       </div>
 
-      <div class="overview-item">
-        <span class="overview-number">06</span>
-        <span class="overview-label">TOOLS & TECHNOLOGIES</span>
+      <div class="fact">
+        <span class="fact-number">02</span>
+        <div>
+          <strong>University</strong>
+          <span>Gachon University</span>
+        </div>
       </div>
 
-      <div class="overview-item">
-        <span class="overview-number">01</span>
-        <span class="overview-label">CONTINUOUS LEARNING JOURNEY</span>
+      <div class="fact">
+        <span class="fact-number">03</span>
+        <div>
+          <strong>Focus</strong>
+          <span>Web Development</span>
+        </div>
       </div>
+    </div>
 
-    </section>
-
-    <!-- ABOUT -->
-
-    <section class="content-section about-section" id="about">
-
+    <section class="content-section" id="about">
       <div class="section-marker">
         <span>01</span>
-        <span>THE PERSON</span>
+        <span>ABOUT</span>
       </div>
 
-      <div class="about-content">
-
+      <div class="about-layout">
         <div class="section-heading">
-          <p class="eyebrow">A LITTLE INTRODUCTION</p>
-          <h2>Curious about<br>how things <em>work.</em></h2>
+          <p class="eyebrow">INTRODUCTION</p>
+          <h2>About<br>me<span>.</span></h2>
         </div>
 
-        <div class="about-text">
+        <div class="about-content">
           <p>
             I am studying Computer Engineering at Gachon University.
-            My interests include technology, programming, and creating
-            useful websites.
+            My interests include programming, technology, and creating
+            practical websites.
           </p>
 
           <p>
             Through my Web Programming course, I have been developing
-            my skills in HTML, CSS, JavaScript, and working with GitHub.
-            I enjoy applying what I learn by building projects and
-            improving them through practice.
+            my skills in HTML, CSS, JavaScript, Git, and GitHub.
+            I use coursework and independent practice to apply what
+            I learn by building and improving projects.
           </p>
 
-          <div class="about-note">
-            <span class="note-symbol">✳</span>
-            <span>Learning through experimentation, practice, and building.</span>
-          </div>
+          <p>
+            This portfolio brings together selected examples of my
+            individual coursework and collaborative work.
+          </p>
         </div>
-
       </div>
-
     </section>
 
-    <!-- TOOLKIT -->
-
-    <section class="content-section toolkit-section" id="toolkit">
-
+    <section class="content-section skills-section" id="skills">
       <div class="section-marker">
         <span>02</span>
-        <span>THE TOOLKIT</span>
+        <span>SKILLS</span>
       </div>
 
-      <div class="toolkit-heading">
-        <div>
-          <p class="eyebrow">WHAT I'M WORKING WITH</p>
-          <h2>Tools of the <em>trade.</em></h2>
-        </div>
-
-        <p class="toolkit-intro">
-          Technologies and practices I'm learning and using
-          throughout my coursework and projects.
-        </p>
+      <div class="section-heading skills-heading">
+        <p class="eyebrow">TECHNOLOGIES AND TOOLS</p>
+        <h2>What I<br>work with<span>.</span></h2>
       </div>
 
-      <div class="toolkit-grid">
-
-        <div class="tool-item">
-          <span class="tool-number">01</span>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <span>01</span>
           <strong>HTML</strong>
-          <span>Structure</span>
+          <p>Webpage structure</p>
         </div>
 
-        <div class="tool-item">
-          <span class="tool-number">02</span>
+        <div class="skill-item">
+          <span>02</span>
           <strong>CSS</strong>
-          <span>Presentation</span>
+          <p>Styling and layouts</p>
         </div>
 
-        <div class="tool-item">
-          <span class="tool-number">03</span>
+        <div class="skill-item">
+          <span>03</span>
           <strong>JavaScript</strong>
-          <span>Interaction</span>
+          <p>Interactive features</p>
         </div>
 
-        <div class="tool-item">
-          <span class="tool-number">04</span>
+        <div class="skill-item">
+          <span>04</span>
           <strong>Responsive Design</strong>
-          <span>Adaptability</span>
+          <p>Different screen sizes</p>
         </div>
 
-        <div class="tool-item">
-          <span class="tool-number">05</span>
+        <div class="skill-item">
+          <span>05</span>
           <strong>Git</strong>
-          <span>Version control</span>
+          <p>Version control</p>
         </div>
 
-        <div class="tool-item">
-          <span class="tool-number">06</span>
+        <div class="skill-item">
+          <span>06</span>
           <strong>GitHub</strong>
-          <span>Collaboration & hosting</span>
+          <p>Repositories and hosting</p>
         </div>
-
       </div>
-
     </section>
 
-    <!-- PROJECTS -->
-
-    <section class="content-section work-section" id="work">
-
-      <div class="section-marker">
-        <span>03</span>
-        <span>SELECTED WORK</span>
-      </div>
-
-      <div class="work-heading">
-        <div>
-          <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
-          <h2>Work in <em>progress.</em></h2>
-        </div>
-
-        <p class="work-intro">
-          A selection of projects developed through my
-          Web Programming coursework.
+    <section class="featured-section">
+      <div class="featured-copy">
+        <p class="eyebrow">SELECTED COURSEWORK</p>
+        <h2>Projects and<br>assignments<span>.</span></h2>
+        <p>
+          Explore individual assignments and a collaborative
+          website developed as part of my Web Programming studies.
         </p>
       </div>
 
-      <div class="project-grid">
-
-        <!-- PROJECT 01 -->
-
-        <article class="project-card project-book">
-
-          <div class="project-info">
-
-            <div class="project-meta">
-              <span>PROJECT 01</span>
-              <span>COURSEWORK</span>
-            </div>
-
-            <h3>Book Search</h3>
-
-            <p>
-              A book search website created as part of my
-              Web Programming coursework.
-            </p>
-
-            <a
-              class="project-link"
-              href="https://erdenetsogt-delgerbat.github.io/Web-Programming/week%207/book-search.html"
-              target="_blank"
-              rel="noopener noreferrer">
-              View project <span aria-hidden="true">↗</span>
-            </a>
-
-          </div>
-
-          <div class="project-art book-art" aria-hidden="true">
-            <span class="art-corner">01 / EXPLORE</span>
-            <div class="book-shape">
-              <span>THE</span>
-              <strong>BOOK<br>SEARCH</strong>
-              <i></i>
-            </div>
-            <span class="art-bottom">READ · DISCOVER · LEARN</span>
-          </div>
-
-        </article>
-
-        <!-- PROJECT 02 -->
-
-        <article class="project-card project-registration">
-
-          <div class="project-info">
-
-            <div class="project-meta">
-              <span>PROJECT 02</span>
-              <span>COURSEWORK</span>
-            </div>
-
-            <h3>Student Registration</h3>
-
-            <p>
-              A student registration project developed using
-              web technologies learned in class.
-            </p>
-
-            <a
-              class="project-link"
-              href="https://erdenetsogt-delgerbat.github.io/Web-Programming/week%208/student-registration.html"
-              target="_blank"
-              rel="noopener noreferrer">
-              View project <span aria-hidden="true">↗</span>
-            </a>
-
-          </div>
-
-          <div class="project-art registration-art" aria-hidden="true">
-            <span class="art-corner">02 / DETAILS</span>
-
-            <div class="form-illustration">
-              <div class="form-top">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-
-              <div class="form-title">REGISTRATION</div>
-              <div class="form-line"></div>
-              <div class="form-line short"></div>
-              <div class="form-line"></div>
-
-              <div class="form-bottom">
-                <span>SUBMIT</span>
-                <span>→</span>
-              </div>
-            </div>
-
-            <span class="art-bottom">STRUCTURE · INPUT · DESIGN</span>
-          </div>
-
-        </article>
-
-        <!-- PROJECT 03 -->
-
-        <article class="project-card project-cooking">
-
-          <div class="project-info">
-
-            <div class="project-meta">
-              <span>PROJECT 03</span>
-              <span>TEAM PROJECT</span>
-            </div>
-
-            <h3>What's Cooking?</h3>
-
-            <p>
-              A collaborative web project developed with classmates.
-              A recipe-focused website designed to make everyday
-              cooking more accessible.
-            </p>
-
-            <a
-              class="project-link"
-              href="https://erdenetsogt-delgerbat.github.io/team-Project/"
-              target="_blank"
-              rel="noopener noreferrer">
-              View team project <span aria-hidden="true">↗</span>
-            </a>
-
-          </div>
-
-          <div class="project-art cooking-art" aria-hidden="true">
-            <span class="art-corner">03 / COLLABORATION</span>
-
-            <div class="cooking-graphic">
-              <span class="cooking-small">WHAT'S</span>
-              <strong>COOKING<span>?</span></strong>
-              <div class="cooking-underline"></div>
-              <span class="cooking-caption">EVERYDAY RECIPES</span>
-            </div>
-
-            <span class="art-bottom">IDEAS · RECIPES · PEOPLE</span>
-          </div>
-
-        </article>
-
-      </div>
-
+      <a class="featured-link" href="projects.html">
+        <span>VIEW ALL PROJECTS</span>
+        <span class="featured-arrow" aria-hidden="true">↗</span>
+      </a>
     </section>
 
   </main>
 
-  <!-- FOOTER -->
-
   <footer class="site-footer">
     <div class="shell footer-inner">
-
-      <div class="footer-brand">
-        <span>ED<span class="footer-dot">.</span></span>
-        <p>Built while learning. Improved through practice.</p>
+      <div>
+        <strong>Erdenetsogt Delgerbat</strong>
+        <p>Computer Engineering / Gachon University</p>
       </div>
 
-      <a
-        class="footer-link"
-        href="https://github.com/ERDENETSOGT-DELGERBAT"
-        target="_blank"
-        rel="noopener noreferrer">
-        FIND ME ON GITHUB ↗
+      <a href="https://github.com/ERDENETSOGT-DELGERBAT" target="_blank" rel="noopener noreferrer">
+        GitHub Profile ↗
       </a>
 
-      <p class="copyright">
-        © <span id="current-year">2026</span> ERDENETSOGT DELGERBAT
-      </p>
-
+      <span>© <span id="current-year">2026</span></span>
     </div>
   </footer>
 
