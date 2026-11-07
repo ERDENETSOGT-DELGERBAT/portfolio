@@ -1,14 +1,9 @@
 
-// =========================================
-// PORTFOLIO INTERACTIONS
-// Theme preference and current year
-// =========================================
-
 const themeToggle = document.getElementById("theme-toggle");
-const themeLabel = themeToggle.querySelector(".theme-label");
-const themeIcon = themeToggle.querySelector(".theme-icon");
+const themeLabel = document.getElementById("theme-label");
+const themeIcon = document.getElementById("theme-icon");
 
-function applyTheme(theme, savePreference = true) {
+function applyTheme(theme, save = true) {
   const isDark = theme === "dark";
 
   document.body.classList.toggle("dark-mode", isDark);
@@ -22,45 +17,33 @@ function applyTheme(theme, savePreference = true) {
     isDark ? "Switch to light mode" : "Switch to dark mode"
   );
 
-  if (savePreference) {
+  if (save) {
     try {
       localStorage.setItem("portfolio-theme", theme);
     } catch (error) {
-      console.warn("Theme preference could not be saved.", error);
+      console.warn("Theme preference could not be saved.");
     }
   }
 }
-
-
-// Restore the saved theme or use the system preference.
 
 let savedTheme = null;
 
 try {
   savedTheme = localStorage.getItem("portfolio-theme");
 } catch (error) {
-  console.warn("Saved theme preference could not be read.", error);
+  savedTheme = null;
 }
 
-const preferredTheme =
-  savedTheme ||
-  (window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light");
+const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+  ? "dark"
+  : "light";
 
-applyTheme(preferredTheme, false);
-
-
-// Toggle between light and dark mode.
+applyTheme(savedTheme || systemTheme, false);
 
 themeToggle.addEventListener("click", function () {
   const isDark = document.body.classList.contains("dark-mode");
-
   applyTheme(isDark ? "light" : "dark");
 });
-
-
-// Keep the footer year current.
 
 const yearElement = document.getElementById("current-year");
 
