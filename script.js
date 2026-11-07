@@ -1,4 +1,3 @@
-
 const themeToggle = document.getElementById("theme-toggle");
 const themeLabel = document.getElementById("theme-label");
 const themeIcon = document.getElementById("theme-icon");
